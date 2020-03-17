@@ -1,5 +1,5 @@
 
-In the event of a service disruption to any of the service listed below this message will be replaced with informational text. 
+In the event of a disruption to any of the service listed below, this message will be replaced with informational text. 
 
 # Current Information on Service Availability
 
