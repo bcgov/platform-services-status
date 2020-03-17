@@ -16,7 +16,9 @@ layout: default
   .status-box p {
     /* background-color: #ffff; */
     flex: 0 0 80%;
-    font-size: 3em;
+    font-size: 2em;
+    min-height: 60px;
+    padding: 35px 20px 10px; 
   }
 </style>
 
@@ -35,7 +37,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Incident Reports" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
