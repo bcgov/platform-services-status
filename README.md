@@ -19,7 +19,7 @@ Send a note to bcdevexchange@gov.bc.ca and you'll get routed to the right person
 
 ## How to Contribute
 
-This project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms."
+This project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## License
 
