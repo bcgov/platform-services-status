@@ -9,6 +9,43 @@ This site is served via github.io and can be viewed at two URLs:
 
 [Vanity URL](https://status.devops.gov.bc.ca/)
 
+## Development
+
+The best way to do local development is to use docker. Follow the instructions below and you should be up-and-running in no time:
+
+1. Clone the repo, and change to the newly minted directory;
+2. Fire up the Jekyll docker container:
+
+```console
+docker run -it --rm --name jekyll -v $(pwd):/srv/jekyll -p 4000:4000 jekyll/jekyll /bin/bash
+```
+3. Update the bundler:
+
+```console
+gem install bundler
+```
+4. Run the local Jekyll server:
+
+```console
+jekyll serve --watch --force_polling
+```
+
+That's it. It'll install some packages. When done, you'll see something that looks the output below. Point your browser to `http://localhost:4000` and you should see the site! Because you're running in watch mode every time you change a file it will re-compile the site and immediately serve out your changes.
+
+```console
+ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux-musl]
+Configuration file: /srv/jekyll/_config.yml
+            Source: /srv/jekyll
+       Destination: /srv/jekyll/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.585 seconds.
+ Auto-regeneration: enabled for '/srv/jekyll'
+    Server address: http://0.0.0.0:4000
+  Server running... press ctrl-c to stop.
+  ```
+
 ## Project Status / Goals / Roadmap
 
 This project is ongoing.
