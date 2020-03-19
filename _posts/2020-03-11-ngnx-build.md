@@ -2,7 +2,7 @@
 layout: post
 title: "Nginx Build Issues"
 date: 2020-03-11 14:00:00 +0000
-categories: Nginx outage update
+categories: openshift outage update
 ---
 
 Today at approximately 2PM an issue was identified in a commonly used nginx Dockerfile. This nginx Dockerfile was changing the permissions of /etc to be wide open; this conflicted with a directory injected by our container scanning tool Aqua and caused builds to fail.
