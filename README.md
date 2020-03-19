@@ -9,6 +9,59 @@ This site is served via github.io and can be viewed at two URLs:
 
 [Vanity URL](https://status.devops.gov.bc.ca/)
 
+## How to Update
+
+Below are instructions on how to update the relevant components of this site.
+
+### Update Service Status
+
+In the event of a service disruption you will want to update the file `index.md`. Open the file in your favorite editor, or in a pinch you can use the GitHub Web UI and change the `frontmatter`; that's the little blurb of YAML at the top of the file:
+
+```yaml
+---
+message: "All services are operating normally."
+description: ""
+status:
+    ocp: "Operational"
+    sso: "Operational"
+    rc: "Operational"
+    mss: "Operational"
+---
+```
+
+Edit it to reflect the ongoing incident. Keep the `message` very short, it does not have much space to expand. Use the `description` to add meaningful updates. Once the outage is over reset this section and add an incident report (see below).
+
+```yaml
+---
+message: "Partial system outage."
+description: |
+  2020-03-15 14:15
+  The outage is continuing. We are addressing the problem.
+
+  2020-03-15 13:30
+  Production SSO failed because of a corrupt database. It was failed
+  over to a test site for temporary communication. More updates to
+  follow.
+status:
+    ocp: "Operational"
+    sso: "Service Down"
+    rc: "Operational"
+    mss: "Operational"
+---
+```
+
+When this change is merged into the `master` branch it will take about 60 seconds before it is widely available. 
+
+**Pro Tip** 🤓
+
+Its a good idea to test your changes before you publish them. See them `Development` section below. If your YAML above is malformed the site may present itself incorrectly.
+
+### Add an Incident Report
+
+Once an incident is complete it is good platform etiquette to publish an incident report so the wider user base can better understand the current state of things. To do this just create a new markdown file in the `_posts` directlry following the naming convection of existing files.
+
+Once your have merged your update into the `master` branch it will take about 60 seconds before it is widely available.
+
 ## Development
 
 The best way to do local development is to use docker. Follow the instructions below and you should be up-and-running in no time:
