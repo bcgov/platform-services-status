@@ -2,33 +2,9 @@
 layout: default
 ---
 
-<style type="text/css">
-  .status-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 60px;
-    background-color: #d2f8d2;
-    border-color: #a9a9a9;
-    border-radius: 6px;
-    margin: 0 auto;
-  }
-  .status-box p {
-    /* background-color: #ffff; */
-    flex: 0 0 80%;
-    font-size: 2em;
-    min-height: 60px;
-    padding: 35px 20px 10px; 
-  }
-</style>
-
 <div class="home">
 
-  <div class="status-box" >
-    <p>
-    All services are operating normally.
-    </p>
-  </div>
+  {% include status.html %}
 
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>

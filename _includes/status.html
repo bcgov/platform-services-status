@@ -1,0 +1,22 @@
+<style type="text/css">
+    .status-box {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 60px;
+      background-color: #d2f8d2;
+      border-color: #a9a9a9;
+      border-radius: 6px;
+      margin: 0 auto;
+    }
+    .status-box p {
+      flex: 0 0 80%;
+      font-size: 2em;
+      min-height: 60px;
+      padding: 35px 20px 10px; 
+    }
+</style>
+  
+<div class="status-box" >
+    <p>{{ page.message | default: "Unable to fetch status." }}</p>
+</div>
