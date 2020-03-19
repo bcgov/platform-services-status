@@ -35,13 +35,14 @@ Edit it to reflect the ongoing incident. Keep the `message` very short, it does 
 ---
 message: "Partial system outage."
 description: |
-  2020-03-15 14:15
-  The outage is continuing. We are addressing the problem.
-
   2020-03-15 13:30
   Production SSO failed because of a corrupt database. It was failed
   over to a test site for temporary communication. More updates to
   follow.
+
+  2020-03-15 14:15
+  The outage is continuing. We are restoring the production database.
+  The ETA is 35 minutes.
 status:
     ocp: "Operational"
     sso: "Service Down"
