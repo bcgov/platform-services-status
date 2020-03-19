@@ -13,6 +13,10 @@ This site is served via github.io and can be viewed at two URLs:
 
 Below are instructions on how to update the relevant components of this site.
 
+**Pro Tip** 🤓
+
+Its a good idea to test your changes before you publish them. See them `Development` section below. If your YAML above is malformed the site may present itself incorrectly.
+
 ### Update Service Status
 
 In the event of a service disruption you will want to update the file `index.md`. Open the file in your favorite editor, or in a pinch you can use the GitHub Web UI and change the `frontmatter`; that's the little blurb of YAML at the top of the file:
@@ -52,10 +56,6 @@ status:
 ```
 
 When this change is merged into the `master` branch it will take about 60 seconds before it is widely available. 
-
-**Pro Tip** 🤓
-
-Its a good idea to test your changes before you publish them. See them `Development` section below. If your YAML above is malformed the site may present itself incorrectly.
 
 ### Add an Incident Report
 
