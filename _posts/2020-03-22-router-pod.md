@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenShift Partial Outage"
+title: "OpenShift Routing Issue"
 date: 2020-03-23 14:42:00 +0000
 categories: openshift outage update
 ---
