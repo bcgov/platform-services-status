@@ -7,7 +7,7 @@ This site is served via github.io and can be viewed at two URLs:
 
 [github.io](https://bcgov.github.io/platform-services-status)
 
-[Vanity URL](https://status.devops.gov.bc.ca/)
+[Vanity URL](https://status.developer.gov.bc.ca/)
 
 ## How to Update
 
