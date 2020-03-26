@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenShift Routing Issue"
+title: "OpenShift Service Disruption"
 date: 2020-03-26 12:34:00 +0000
 categories: openshift outage update
 ---
