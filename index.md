@@ -6,6 +6,12 @@
 message: "Platform wide service disruption"
 bgcolour: "#ff9999"
 description: |
+    2020-03-26 11:47
+    We are experiencing a platform wide outage that was caused by the same router pod issue that we had a few days ago. The outage is impacting the availability of all platform applications as well as shared services such as KeyCloak, SSO, and RocketChat.
+    
+    We are working closely with RedHat to troubleshoot the issue and will be posting more information as it becomes available.
+
+    2020-03-26 11:35
     We are investigating what appears to be a system wide outage effecting a wide range of services including OCP, SSO and
     RocketChat.
 status:
