@@ -42,7 +42,6 @@ Edit it to reflect the ongoing incident. Keep the `message` very short, it does 
 
 ```yaml
 ---
----
 # Use the following two color codes for status box background
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
