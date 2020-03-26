@@ -6,7 +6,7 @@
 message: "All services are operating normally"
 bgcolour: "#d2f8d2"
 description: |
-    Between ~11:30am and ~12:04pm today, Thursday March 26th, we experienced a system wide outage. See the incident report below for more information.
+    Between ~11:30am and ~12:04pm today, Thursday March 26th, we experienced a system wide service disruption. See the incident report below for more information.
 status:
     ocp: "Operational"
     sso: "Operational"
