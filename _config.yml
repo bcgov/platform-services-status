@@ -17,7 +17,7 @@ title: BCDevX Platform Services
 email: pathfinder@gov.bc.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Platform Services is a dedicated team providing high level administration
-  and oversite to the OpenShift Container Platform.
+  and oversight to the OpenShift Container Platform.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: do-we-have-twitter
