@@ -1,5 +1,5 @@
 ---
-# Use the followig two color codes for status box background
+# Use the following two color codes for status box background
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad

@@ -23,7 +23,12 @@ In the event of a service disruption you will want to update the file `index.md`
 
 ```yaml
 ---
-message: "All services are operating normally."
+# Use the following two color codes for status box background
+# colours a.k.a "bgcolour" below: 
+#   green = "#d2f8d2" <- things are good
+#   red = "#ff9999" <- things are bad
+message: "All services are operating normally"
+bgcolour: "#d2f8d2"
 description: ""
 status:
     ocp: "Operational"
@@ -37,21 +42,21 @@ Edit it to reflect the ongoing incident. Keep the `message` very short, it does 
 
 ```yaml
 ---
-message: "Partial system outage."
+---
+# Use the following two color codes for status box background
+# colours a.ka.a "bgcolour" below: 
+#   green = "#d2f8d2" <- things are good
+#   red = "#ff9999" <- things are bad
+message: "Platform wide service disruption"
+bgcolour: "#ff9999"
 description: |
-  2020-03-15 13:30
-  Production SSO failed because of a corrupt database. It was failed
-  over to a test site for temporary communication. More updates to
-  follow.
-
-  2020-03-15 14:15
-  The outage is continuing. We are restoring the production database.
-  The ETA is 35 minutes.
+    We are investigating what appears to be a system wide outage effecting a wide range of services including OCP, SSO and
+    RocketChat.
 status:
-    ocp: "Operational"
-    sso: "Service Down"
-    rc: "Operational"
-    mss: "Operational"
+    ocp: "Down"
+    sso: "Down"
+    rc: "Down"
+    mss: "Down"
 ---
 ```
 
