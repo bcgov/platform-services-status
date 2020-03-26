@@ -1,12 +1,16 @@
 ---
-message: "All services are operating normally."
-description: ""
+message: "Platform wide service disruption"
+description: |
+    We are investigating what appears to be a system wide outage effecting a wide range of services including OCP, SSO and
+    RocketChat.
 status:
-    ocp: "Operational"
-    sso: "Operational"
-    rc: "Operational"
-    mss: "Operational"
+    ocp: "Intermittent Issues"
+    sso: "Intermittent Issues"
+    rc: "Intermittent Issues"
+    mss: "Intermittent Issues"
 ---
+
+<br />
 
 {{ page.description | default: "In the event of a disruption to any of
 the service listed below, this message will be replaced with
