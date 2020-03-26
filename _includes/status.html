@@ -1,10 +1,13 @@
 <style type="text/css">
+    :root {
+      --status-box-bg-color: {{ page.bgcolour | default: "#ddd9d9" }};
+    }
     .status-box {
       display: flex;
       justify-content: left;
       align-items: center;
       height: 60px;
-      background-color: #ff9999; /* #d2f8d2; */
+      background-color: var(--status-box-bg-color);
       border-color: #a9a9a9;
       border-radius: 6px;
       margin: 0 auto;

@@ -1,5 +1,10 @@
 ---
+# Use the followig two color codes for status box background
+# colours a.ka.a "bgcolour" below: 
+#   green = "#d2f8d2" <- things are good
+#   red = "#ff9999" <- things are bad
 message: "Platform wide service disruption"
+bgcolour: "#ff9999"
 description: |
     We are investigating what appears to be a system wide outage effecting a wide range of services including OCP, SSO and
     RocketChat.
