@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.updates.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Updates" }}</h2>
+    <ul class="post-list">
+      {%- for update in site.updates -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ update.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ update.url | relative_url }}">
+            {{ update.title | escape }}
+          </a>
+        </h3>
+
+        {%- if site.show_excerpts -%}
+          {{ update.excerpt }}
+        {%- endif -%}
+
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
