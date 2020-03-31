@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Platform Servie Priority Update - March 2020"
+title: "Platform Service Priority Update - March 2020"
 date: 2020-03-23 14:42:00 +0000
 categories: openshift update
 ---
@@ -15,10 +15,9 @@ As you are aware, the fact that the Platform has to-date been a Pathfinder initi
  
 **1. Telework for Platform Services Team** 
  
-In accordance with recommendations from BC’s Provincial Health Officer and the direction of leadership in the BC Public Service, the team has switched to telework as of Monday March 16, 2020 until further notice.
-The team has access to all necessary tools and technology to make telework a success - remote access, teleconferencing and collaboration tools.
-There will be no disruption to the regular maintenance operations on the Platform.
-The team will continue to be available during regular business hours in RocketChat, via email and phone - please continue to use the designated channels, e.g. #devops-sos for acute issues. 
+In accordance with recommendations from BC’s Provincial Health Officer and the direction of leadership in the BC Public Service, the team has switched to telework as of Monday March 16, 2020 until further notice. The team has access to all necessary tools and technology to make telework a success - remote access, teleconferencing and collaboration tools.
+
+**There will be no disruption to the regular maintenance operations on the Platform.** The team will continue to be available during regular business hours in RocketChat, via email and phone - please continue to use the designated channels, e.g. #devops-sos for acute issues. 
  
 
 **2. OCP 3.11 Platform Change Freeze**
@@ -27,7 +26,8 @@ The team will continue to be available during regular business hours in RocketCh
 
 **No new features/services** will be introduced onto the OCP 3.11 Platform. 
 All security tools (except those that have already been added to the Platform i.e. Artifactory) will not be added to the current Openshift 3.11 Platform and will be introduced as part of the Openshift 4 Upgrade.
- Aporeto service will NOT be restored on the Platform at this moment - see the following explanatory note:
+
+**Aporeto service will NOT be restored on the Platform at this moment**, see the following explanatory note:
  
 *Keeping the Aporeto service disabled on the Platform was not an easy decision for the team. We’ve put a lot of hard work into bringing this technology to the Platform and helping the product teams leverage its benefits. However, in the current circumstances, our focus is to eliminate or minimize the impact of any potential risk that could disrupt Platform operations during the COVID-19 situation. We will revisit this decision as soon as the situation changes. 
 At this moment the Platform uses the Openshift native network security model that has been in effect prior to the Aporeto launch on the Platform in Oct 2019. 
@@ -74,11 +74,13 @@ Work will continue as planned. The next deliverable is the extraction of the STR
 - Review of the current product team onboarding procedure
  
 - Requirement checklist for new teams (i.e. a dedicated DevOps person for ongoing support of the app)
-  - Responsibilities on communicating changes for the Product Owner and DevOps person roles
+  - Responsibilities on communicating changes for the Product Owner (PO) and DevOps person roles
   - Clear recommendations for what communication channels to use in what situations and the escalation procedure 
 
 - Product Owner Distribution List Clean-up
- Review the current list of POs for Platform apps to ensure all contacts in it are relevant and up-to-date
+
+  - Review the current list of POs for Platform apps to ensure all contacts in it are relevant and up-to-date
+
 - Platform Privileged (cluster admin access) User List Cleanup
 
-If you have any questions about the priorities above, please contact the Platform Director, Justin Hewitt, at justin.hewitt@gov.bc.ca and/or the ED responsible for Platform Services, Rumon Carter, at rumon.carter@gov.bc.ca and/or DevOps Platform Product Manager, Olena Mitovska at olena.mitovska@gov.bc.ca 
+If you have any questions about the priorities above, please contact the Platform Director, Justin Hewitt, at justin.hewitt@gov.bc.ca and/or DevOps Platform Product Manager, Olena Mitovska at olena.mitovska@gov.bc.ca and/or the ED responsible for Platform Services, Rumon Carter, at rumon.carter@gov.bc.ca. 
