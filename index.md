@@ -5,8 +5,7 @@
 #   red = "#ff9999" <- things are bad
 message: "All services are operating normally"
 bgcolour: "#d2f8d2"
-description: |
-    All services are operating normally.
+description:
 status:
     ocp: "Operational"
     sso: "Operational"
