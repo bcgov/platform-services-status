@@ -4,9 +4,9 @@
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
 message: "All services are operating normally"
-bgcolour: "#ff9999"
+bgcolour: "#d2f8d2"
 description: |
-    GutHub is currently experiencing a system wide service degradation. This has an impact on OCp because we depend on it for both authentication an as a repository for builds. You can follow GitHubs progress at restoring service [here](https://www.githubstatus.com/).
+    All services are operating normally.
 status:
     ocp: "Operational"
     sso: "Operational"
