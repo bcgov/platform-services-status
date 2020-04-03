@@ -20,6 +20,10 @@ status:
 the service listed below, this message will be replaced with
 informational text." }} 
 
+<b>Platform Service Priority Update - March 2020</b>
+
+Due to the increasing number of business critical applications that are now hosted on the Openshift Platform and provide emergency and essential services to the residents of British Columbia, the Platform Services team will be adjusting its priorities to ensure uninterrupted service of all products, tools and services hosted on the current version of the Platform (i.e. the Openshift 3.11 version). Click [here]({% link _updates/2020-03-22-whats-next.md %}) for more information.  
+
 # Current Information on Service Availability
 
 | Service                      | Status                                      |
