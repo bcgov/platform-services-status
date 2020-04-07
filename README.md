@@ -1,7 +1,7 @@
 
 ## About
 
-This is the status site for the BCDevX Platform Services technical operations. It is used to communicate the status of shared services, hosted on and including the OpenShift Container Platform (OCP). When a service disruption is detected this site will be updated with relevant information. Once the service disruption is address, we'll post an incident report here.
+This is the status site for the BCDevExchange Platform Services technical operations. It is used to communicate the status of shared services hosted on BC Gov's DevOps Platform that it is based on the RedHat's OpenShift Container Platform (OCP) technology including the status of the Platform itself. When a service disruption is detected this site will be updated with relevant information. Once the service disruption is addressed, we'll post an incident report here. Other useful information available on this site includes updates about Platform Services' priority changes and maintenance announcements (coming soon).
 
 This site is served via github.io and can be viewed at two URLs:
 
