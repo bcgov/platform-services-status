@@ -36,7 +36,7 @@ Resiliency is a shared responsibility.  Platform Services Team builds and operat
 Keep us informed about major milestones for your project. If you have an important launch coming up and you are not sure your application can provide undisrupted continuity of operations during a scheduled maintenance, let the Platform Services Team know in `#devops-operations` channel and we will work with you to ensure your business service is uninterrupted.
 
 
-### Frequently and Open Communication
+### Frequent and Open Communication
 
 If you have any questions or concerns about support activities happening on the Platform or the approaches that we are taking to run these activities, please let me know. You can find me in RocketChat or send me an email.  We are building the Platform together as a community and you, as a valued partner, have an important role to play in shaping this service.
 
