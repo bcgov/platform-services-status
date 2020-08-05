@@ -13,7 +13,7 @@ layout: default
   {%- if site.updates.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Latest Updates" }}</h2>
     <ul class="post-list">
-      {%- for update in site.updates -%}
+      {%- for update in site.updates reversed -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ update.date | date: date_format }}</span>
@@ -24,7 +24,7 @@ layout: default
         </h3>
 
         {%- if site.show_excerpts -%}
-          {{ update.excerpt }}
+          {{ update.content | markdownify | strip_html | truncatewords: 50 }}
         {%- endif -%}
 
       </li>
