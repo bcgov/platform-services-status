@@ -15,7 +15,7 @@ To address current capacity issues related to the limited Platform CPU, we’ve 
 
 3. You have the DevOps capacity in place to support the development of resilient architecture suitable for multi-node deployment.
 
-If you do not meet all of the screening criteria above, don’t despair. Our team welcomes a conversation with you to determine whether we may still be able to accommodate your project at this time. 
+If your project meets all 3 requirements, we can provision a namespace for you now. If it doesn’t , we ask that the project wait until a new Openshift 4 Platform becomes available in September 2020.
 
 ## Why the change?
 
