@@ -14,7 +14,7 @@ status:
     sso: "Operational"
     rc: "Service Down"
     mss: "Operational"
-
+---
 <br />
 
 {{ page.description | default: "In the event of a disruption to any of the service listed below, this message will be replaced with informational text." }} 
