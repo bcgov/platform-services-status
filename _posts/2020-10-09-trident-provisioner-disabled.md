@@ -5,7 +5,7 @@ date: 2020-10-09 11:45:00 +0000
 categories: openshift update
 ---
 
-As an ongoing action to yesterdays Service Outage. The Trident Provisioner Service for Openshift 3.11 is being turned off while we look to resolve the issue. 
+As an ongoing action to yesterday's Service Outage, the Trident Provisioner Service for Openshift 3.11 is being turned off while we look to resolve the issue. 
 
 This issue does **not impact current pvcs**. 
 
