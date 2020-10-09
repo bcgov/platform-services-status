@@ -14,7 +14,7 @@ status:
     sso: "Operational"
     rc: "Service Down"
     mss: "Operational"
-
+---
 <br />
 
 {{ page.description | default: "Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. The issue seems to be isolated to a particular node and only impacts applications deployed to this node. Other services continue to operate as usual." }} 
