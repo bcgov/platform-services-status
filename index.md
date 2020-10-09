@@ -3,15 +3,17 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "All services are operating normally"
+message: "RocketChat and TheOrgBook are down"
+bgcolour: "#ff9999"
+description: |
+    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available.
 bgcolour: "#d2f8d2"
 description:
 status:
     ocp: "Operational"
     sso: "Operational"
-    rc: "Operational"
+    rc: "Service Down"
     mss: "Operational"
----
 
 <br />
 
