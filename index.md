@@ -3,20 +3,21 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "RocketChat and TheOrgBook are down"
+message: "KeyCloak SSO and TheOrgBook are down"
+bgcolour: "#ff9999"
 description: |
-    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. The issue seems to be isolated to a particular node and only impacts applications deployed to this node. Other services continue to operate as usual.
+    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. 
 bgcolour: "#ff9999"
 description:
 status:
     ocp: "Operational"
-    sso: "Operational"
-    rc: "Service Down"
+    sso: "Service Down"
+    rc:  "Operational"
     mss: "Operational"
 ---
 <br />
 
-{{ page.description | default: "Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. The issue seems to be isolated to a particular node and only impacts applications deployed to this node. Other services continue to operate as usual." }} 
+{{ page.description | default: "Some services and applications on the OpenShift 3.11 Platform including KeyCloak and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available." }} 
 
 <b>Platform Service Priority Update - July 2020</b>
 
