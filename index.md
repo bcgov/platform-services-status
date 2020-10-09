@@ -3,7 +3,7 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "KeyCloak SSO and TheOrgBook is down"
+message: "KeyCloak SSO and TheOrgBook are down"
 bgcolour: "#ff9999"
 description: |
     Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. 
@@ -17,7 +17,7 @@ status:
 ---
 <br />
 
-{{ page.description | default: "Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available." }} 
+{{ page.description | default: "Some services and applications on the OpenShift 3.11 Platform including KeyCloak and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available." }} 
 
 <b>Platform Service Priority Update - July 2020</b>
 
