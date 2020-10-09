@@ -16,7 +16,7 @@ This issue does **not impact current pvcs**.
 
 ## How long will provisioning be disabled?
 
-***
+We will post an update about the timeline as soon as we hear back from NetApp support that is testing a downgrade path for us.
 
 ## What can you do in the mean time?
 
