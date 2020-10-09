@@ -6,8 +6,8 @@
 message: "RocketChat and TheOrgBook are down"
 bgcolour: "#ff9999"
 description: |
-    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available.
-bgcolour: "#d2f8d2"
+    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. The issue seems to be isolated to a particular node and only impacts applications deployed to this node. Other services continue to operate as usual.
+bgcolour: "#ff9999"
 description:
 status:
     ocp: "Operational"
@@ -17,7 +17,7 @@ status:
 
 <br />
 
-{{ page.description | default: "In the event of a disruption to any of the service listed below, this message will be replaced with informational text." }} 
+{{ page.description | default: "Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. The issue seems to be isolated to a particular node and only impacts applications deployed to this node. Other services continue to operate as usual." }} 
 
 <b>Platform Service Priority Update - July 2020</b>
 
