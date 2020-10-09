@@ -19,17 +19,6 @@ status:
 
 {{ page.description | default: "Some services and applications on the OpenShift 3.11 Platform including KeyCloak and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available." }} 
 
-<b>Platform Service Priority Update - July 2020</b>
-
-To address current capacity issues related to the limited Platform CPU, we’ve made the difficult decision to temporarily prioritize new project requests, based on the following criteria:
-
-1. Your project addresses the needs of an urgent COVID-19 response;
-2. Your project has been designated as high business priority;
-3. You have the DevOps capacity in place to support the development of resilient architecture suitable for multi-node deployment;
-
-If your projects meets all 3 requirements, we can provision a namespace for you now. If it doesn’t , we ask that the project wait until a new Openshift 4 Platform becomes available in September 2020.
-
-Click [here]({% link _updates/2020-08-05-availability.md %}) for more information.  
 
 # Current Information on Service Availability
 
@@ -40,3 +29,14 @@ Click [here]({% link _updates/2020-08-05-availability.md %}) for more informatio
 | RocketChat                   | {{ page.status.rc | default: "Unknown" }}   |
 | Mobile Signing Service       | {{ page.status.ocp | default: "Unknown" }}  |
 
+ <b>OpenShift 4 Application Migration Roadmap Update - September 2020</b>
+
+We’ve now completed two weeks of extensive planning sessions to provide the following roadmap to help guide your migration planning:
+ 
+* Pre-Migration, Platform Services: September/October
+* Phase 1, Early Adoption: October 14 - Mid-November (depending on the migration progress)
+* Phase 2, Early Majority: Late November - Early January (TBC, contingent upon Early Adoption Phase)
+* Phase 3, Late Majority: January/February (TBC, contingent upon Early Majority Phase)
+* Phase 4, Sweep: Target end date - Feb 21, 2021 (Openshift 3.11 Platform is decommissioned)
+
+Click [here]({% link _updates/2020-10-08-ocp4-migration-update.md %}) for more information.  
