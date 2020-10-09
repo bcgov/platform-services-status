@@ -20,6 +20,10 @@ This issue does **not impact current pvcs**.
 
 ## What can you do in the mean time?
 
-If being unable to create **new** pvcs is causing blockers for your development. As a temporary work around you can switch to ephemeral storage for services that require data. This is something that you should do for **DEV** environments only. 
+- If being unable to create **new** pvcs is causing blockers for your development. As a temporary work around you can switch to ephemeral storage for services that require data. This is something that you should do for **DEV** environments only. 
 
-
+- If you are experiencing an emergeancy due to being unable to provision **new netapp volumes** contact #devops-operations to discuss options. Please provide details such as
+  - project/namespace
+  - deployment
+  - team
+  
