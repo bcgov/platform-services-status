@@ -4,13 +4,13 @@
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
 message: "All services are operating normally"
-bgcolour: "#d2f8d2"
+bgcolour: "#ff9999"
 description: |
-    Between ~11:30am and ~12:04pm today, Thursday March 26th, we experienced a system wide service disruption. See the incident report below for more information.
+    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available.
 status:
     ocp: "Operational"
     sso: "Operational"
-    rc: "Operational"
+    rc: "Service Down"
     mss: "Operational"
 ---
 
