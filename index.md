@@ -4,23 +4,20 @@
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
 message: "Storage Provisioning Platform Service is Down"
-bgcolour: "#ff9999"
-description: |
-    Some services and applications on the Platform including RocketChat and TheOrgBook seem to be experiencing service disruptions related to the issue with the storage on the Platform starting from 6:00pm on Oct 8, 2020. The Platform Operations Team is troubleshooting the issue and will post an update as soon as more information is available. 
-bgcolour: "#ff9999"
+bgcolour: "#d2f8d2"
+description: | 
+bgcolour: "#d2f8d2"
 description:
 status:
     ocp: "Operational"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
-    netapp: "Down"
+    netapp: "Operational"
 ---
 <br />
 
-{{ page.description | default: "As an ongoing action to yesterday Service Outage the Trident Provisioner Service for Openshift 3.11 is being turned off while we look to resolve the issue. No new PVCs can be provisioned at this time. There is no impact on the existing PVCs.
-
-" }} 
+{{ page.description | default: "All Platform Services are operational." }} 
 
 
 # Current Information on Service Availability
