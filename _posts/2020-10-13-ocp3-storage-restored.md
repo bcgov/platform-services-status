@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Trident Provisioner Temporarily Disabled"
-date: 2020-10-09 11:45:00 +0000
+title: "Trident Provisioner Enabled"
+date: 2020-10-13 12:00:00 +0000
 categories: openshift update
 ---
  Trident Service for NetApp storage provisioning on Openshift 3.11 has been turned on again at noon on Tuesday Oct 13, 2020.
