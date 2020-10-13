@@ -3,7 +3,7 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "Storage Provisioning Platform Service is Down"
+message: "All Platform Services are Up and Operational"
 bgcolour: "#d2f8d2"
 description: | 
 bgcolour: "#d2f8d2"
