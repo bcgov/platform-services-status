@@ -7,6 +7,9 @@ categories: sso update
 A hot fix is scheduled for the BCGov Redhat SSO instance in the dev, test, and prod environments later this evening. There are remediatory actions being taken
 to prevent the service degradation issues that have recently been affecting the service.
 
+## Changes
+- increasing cpu and memory requests/limits for the patroni statefulset as well as the sso deployment config in preperation for a planned jvm tuning later on this month
+
 ## More Information
 - Approximate Time of Change: Dec 01 2020 8PM PST
 - Type of Change: hotfix
