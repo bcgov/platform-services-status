@@ -16,3 +16,7 @@ to prevent the service degradation issues that have recently been affecting the 
 - the expected service downtime for each environment is minimal. We expect a service downtime in each environment to be ~10 minutes.
 - Clients holding long lived sessions will experience a disruption as their sessions will be terminated. Clients will need to re-authenticate against sso after the rollout
 - Clients utilizing offline tokens may experience issues. This is commonly resolved by refreshing your browser cache (ctrl+shift+r) or closing your tabs and reopening your browser.
+
+### Changes include:
+- preparation for JVM resource tuning: increased SSO resources (CPU and Memory)
+- pipeline update: started ansible playbook to run custom changes
