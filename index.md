@@ -8,9 +8,9 @@ bgcolour: "#ff9999"
 description: |
     The OCP4 platform is currently experiencing issues. Existing / running
     applications appear to be unaffected however, new pods trying to start
-    are unable to communicate with the k8s API and start. This issue also
+    are unable to communicate with the k8s API to start. This issue also
     appears to be impacting PV/PVC provisioning. We have a Sev1 ticket open
-    with the vender are are working to resolve the issue.
+    with the vender are are working to resolve the issue ASAP.
 status:
     ocp: "Intermittent"
     sso: "Operational"
