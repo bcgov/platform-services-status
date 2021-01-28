@@ -4,7 +4,7 @@
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
 message: "Intermittent issues reported and under investigation."
-bgcolour: "#FFA500"
+bgcolour: "#ff9999"
 description: |
     We are aware of the reported issues with the platform and
     are investigating. See #devops-sos for more details.
