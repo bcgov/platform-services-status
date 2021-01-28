@@ -28,7 +28,7 @@ status:
 | Single Sign On (SSO)         | {{ page.status.sso | default: "Unknown" }}  |
 | RocketChat                   | {{ page.status.rc | default: "Unknown" }}   |
 | NetApp Storage Provisioning  | {{ page.status.netapp | default: "Unknown" }}   |
-| Mobile Signing Service       | {{ page.status.ocp | default: "Unknown" }}  |
+| Mobile Signing Service       | {{ page.status.mss | default: "Unknown" }}  |
 
  <b>OpenShift 4 Application Migration Roadmap Update - September 2020</b>
 
