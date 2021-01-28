@@ -5,7 +5,9 @@
 #   red = "#ff9999" <- things are bad
 message: "Intermittent issues reported and under investigation."
 bgcolour: "#FFA500"
-description:
+description: |
+    We are aware of the reported issues with the platform and
+    are investigating. See #devops-sos for more details.
 status:
     ocp: "Intermittent"
     sso: "Operational"
