@@ -3,13 +3,11 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "All Platform Services are Up and Operational"
-bgcolour: "#d2f8d2"
-description: | 
-bgcolour: "#d2f8d2"
+message: "Intermittent issues reported and under investigation."
+bgcolour: "#FFA500"
 description:
 status:
-    ocp: "Operational"
+    ocp: "Intermittent"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
