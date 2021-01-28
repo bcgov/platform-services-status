@@ -6,14 +6,17 @@
 message: "Intermittent issues reported and under investigation."
 bgcolour: "#ff9999"
 description: |
-    We are aware of the reported issues with the platform and
-    are investigating. See #devops-sos for more details.
+    The OCP4 platform is currently experiencing issues. Existing / running
+    applications appear to be unaffected however, new pods trying to start
+    are unable to communicate with the k8s API and start. This issue also
+    appears to be impacting PV/PVC provisioning. We have a Sev1 ticket open
+    with the vender are are working to resolve the issue.
 status:
     ocp: "Intermittent"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
-    netapp: "Operational"
+    netapp: "Intermittent"
 ---
 <br />
 
