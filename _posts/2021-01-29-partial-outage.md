@@ -9,7 +9,7 @@ On Thursday January 28th, 2021 there was a partial outage of the OpenShift Conta
 
 # TL;DR
  
-In October we applied “Workaround 2” from (https://access.redhat.com/solutions/5448851)[here] to the clusters to resolve an issue with the k8s API. According to the knowledge base, that bug should be fixed in v4.5.16+. The Silver cluster is running v4.5.20 so, as part of CHG0022285, we rolled back "Workaround 2" which triggered the issue.
+In October we applied “Workaround 2” from [https://access.redhat.com/solutions/5448851](here) to the clusters to resolve an issue with the k8s API. According to the knowledge base, that bug should be fixed in v4.5.16+. The Silver cluster is running v4.5.20 so, as part of CHG0022285, we rolled back "Workaround 2" which triggered the issue.
 
 # Play by Play 
 
