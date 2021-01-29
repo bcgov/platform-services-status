@@ -8,7 +8,7 @@ bgcolour: "#d2f8d2"
 description: |
     There was a outage on Jan 28th from ~2:00pm to 4:30pm.
     The issue is resolved and an analysis will be posted
-    short.
+    shortly.
 status:
     ocp: "Operational"
     sso: "Operational"
