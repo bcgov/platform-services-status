@@ -3,18 +3,18 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "Intermittent issues reported and under investigation."
-bgcolour: "#ff9999"
+message: "The platform is operating as expected"
+bgcolour: "#d2f8d2"
 description: |
-    The OCP4 platform is currently experiencing issues. Existing / running
-    applications appear to be unaffected however, new pods are unable to communicate with the k8s API to start. This issue also appears to be impacting PV/PVC provisioning. We have a Sev1 ticket open with the
-    vender are are working to resolve the issue ASAP.
+    There was a outage on Jan 28th from ~2:00pm to 4:30pm.
+    The issue is resolved and an analysis will be posted
+    short.
 status:
-    ocp: "Intermittent"
+    ocp: "Operational"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
-    netapp: "Intermittent"
+    netapp: "Operational"
 ---
 <br />
 
