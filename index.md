@@ -6,7 +6,6 @@
 message: "The platform is operating as expected"
 bgcolour: "#d2f8d2"
 description: |
-    # Add a description here.
 status:
     ocp: "Operational"
     sso: "Operational"
