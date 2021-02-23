@@ -12,7 +12,7 @@ This was due to a bad config within the SSO realm used for Openshift Authenticat
 
 ## What was the issue?
 
-The issue was due to an empty authentication flow execution for `post-broker login` with Github. When the empty authentication flow was removed or properaly configured, the Silver cluster login behaved normally.
+The issue was due to an empty authentication flow execution for `post-broker login` with Github. When the empty authentication flow was removed and or properly configured, the Silver cluster login behaved normally.
 
 
 ## Retrospective
@@ -29,5 +29,4 @@ We've identified some next steps for preventing or mitigating issues like these 
 1. Automated scheduled testing of a login flow to ensure cluster access is working as well as having a quicker time-to-detect
 
 2. Sharing this retrospective with parties involved in administering the realm that was involved with this incident.
-
 
