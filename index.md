@@ -3,9 +3,13 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good
 #   red = "#ff9999" <- things are bad
-message: "The platform is operating as expected"
-bgcolour: "#d2f8d2"
+message: "Kamloops data centre network issues."
+bgcolour: "#ff9999"
 description: |
+    At approximately 9:45AM on March 3rd network services
+    detected a DDoS attack on the Kamloops data center. This
+    is where the OCP platform lives and is thus experiencing
+    minor impacts.
 status:
     ocp: "Operational"
     sso: "Operational"
