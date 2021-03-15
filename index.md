@@ -1,13 +1,15 @@
 ---
 # Use the following two color codes for status box background
 # colours a.ka.a "bgcolour" below: 
-#   green = "#d2f8d2" <- things are good
-#   red = "#ff9999" <- things are bad
-message: "All systems nominal 🚀"
-bgcolour: "#d2f8d2"
+#   green = "#d2f8d2" <- things are good 🚀
+#   red = "#ff9999" <- things are bad 🙁
+message: "Intermittent issues 🙁"
+bgcolour: "#ff9999"
 description: |
+    Throughout the day OCP has been experiencing intermittent issues impacting Web console authentication and pod
+    scheduling. Both DXCAS and Platform Services are aware of the issue and are working to resolve it.
 status:
-    ocp: "Operational"
+    ocp: "Intermittent"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
