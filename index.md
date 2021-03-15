@@ -6,8 +6,7 @@
 message: "Intermittent issues 🙁"
 bgcolour: "#ff9999"
 description: |
-    Throughout the day OCP has been experiencing intermittent issues impacting Web console authentication and pod
-    scheduling. Both DXCAS and Platform Services are aware of the issue and are working to resolve it.
+    Throughout the day OCP has been experiencing intermittent issues impacting web console authentication, Kibana, and pod scheduling. Both DXCAS and Platform Services are aware of the issue and are working the vender to resolve it.
 status:
     ocp: "Intermittent"
     sso: "Operational"
