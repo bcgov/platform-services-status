@@ -3,12 +3,11 @@
 # colours a.ka.a "bgcolour" below: 
 #   green = "#d2f8d2" <- things are good 🚀
 #   red = "#ff9999" <- things are bad 🙁
-message: "Intermittent issues 🙁"
-bgcolour: "#ff9999"
+message: "Nominal 🚀"
+bgcolour: "#d2f8d2"
 description: |
-    Throughout the day OCP has been experiencing intermittent issues impacting web console authentication, Kibana, and pod scheduling. Both DXCAS and Platform Services are aware of the issue and are working the vender to resolve it.
 status:
-    ocp: "Intermittent"
+    ocp: "Operational"
     sso: "Operational"
     rc:  "Operational"
     mss: "Operational"
